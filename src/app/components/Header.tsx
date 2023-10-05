@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./header.module.scss";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo-light.png";
 export default function Header() {
   return (
     <header className={styles.header}>
@@ -8,8 +8,8 @@ export default function Header() {
         <Image
           src={Logo}
           alt="Logo"
-          width={100}
-          height={35}
+          width={120}
+          height={100}
           className={styles.logo}
         />
       </div>
