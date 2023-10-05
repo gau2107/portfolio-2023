@@ -1,7 +1,42 @@
 .header {
   height: 95vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, .8), rgba(40, 180, 133, .8)), url(../assets/background.webp);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.8),
+      rgba(40, 180, 133, 0.8)
+    ),
+    url(../assets/background.webp);
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+}
+.logoBox {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.textBox {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo {
+}
+.headingPrimary {
+  color: #fff;
+  text-transform: uppercase;
+}
+.headingPrimaryMain {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 45px;
+}
+.headingPrimarySub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 25px;
 }

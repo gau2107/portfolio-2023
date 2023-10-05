@@ -5,7 +5,21 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logoBox}>
-        <Image src={Logo} alt="Logo" width={300} height={200}/>
+        <Image
+          src={Logo}
+          alt="Logo"
+          width={100}
+          height={35}
+          className={styles.logo}
+        />
+      </div>
+      <div className={styles.textBox}>
+        <h1 className={styles.headingPrimary}>
+          <span className={styles.headingPrimaryMain}>gaurav solanki</span>
+          <span className={styles.headingPrimarySub}>
+            is where life happens
+          </span>
+        </h1>
       </div>
     </header>
   );
