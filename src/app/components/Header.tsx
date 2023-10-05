@@ -17,7 +17,7 @@ export default function Header() {
         <h1 className={styles.headingPrimary}>
           <span className={styles.headingPrimaryMain}>gaurav solanki</span>
           <span className={styles.headingPrimarySub}>
-            is where life happens
+            Turning Ideas into Interactive Experiences
           </span>
         </h1>
       </div>

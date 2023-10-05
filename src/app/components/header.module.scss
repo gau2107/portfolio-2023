@@ -27,16 +27,17 @@
 .headingPrimary {
   color: #fff;
   text-transform: uppercase;
+  white-space: no-wrap;
 }
 .headingPrimaryMain {
   display: block;
   font-size: 60px;
   font-weight: 400;
-  letter-spacing: 45px;
+  letter-spacing: 44px;
 }
 .headingPrimarySub {
   display: block;
   font-size: 20px;
-  font-weight: 700;
-  letter-spacing: 25px;
+  font-weight: 400;
+  letter-spacing: 15px;
 }
