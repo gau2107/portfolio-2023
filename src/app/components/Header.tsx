@@ -20,6 +20,10 @@ export default function Header() {
             Turning Ideas into Interactive Experiences
           </span>
         </h1>
+
+        <a href="#" className={`btn btn-white`}>
+          Hire Me
+        </a>
       </div>
     </header>
   );
