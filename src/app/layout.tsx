@@ -1,3 +1,4 @@
+import { Roboto } from "next/font/google";
 import Header from "./components/Header";
 import "./globals.scss";
 
@@ -6,6 +7,10 @@ export const metadata = {
   description: "Gaurav Solanki - Portfolio",
 };
 
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: "400",
+});
 export default function RootLayout({
   children,
 }: {
@@ -13,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={roboto.className}>
         <Header /> {children}
       </body>
     </html>

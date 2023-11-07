@@ -21,7 +21,7 @@ export default function Header() {
           </span>
         </h1>
 
-        <a href="#" className={`btn btn-white`}>
+        <a href="#" className={`btn btn-white btn-animated`}>
           Hire Me
         </a>
       </div>
